@@ -15,10 +15,10 @@ const AboutSectionContainer = () => {
             </div>
         </div>
         <div className="about-main-container">
-            
+
         </div>
     </>
   )
-}
+
 
 export default AboutSectionContainer
