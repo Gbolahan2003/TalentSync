@@ -62,7 +62,7 @@ const AboutSection = () => {
     <div className="about-image-image-container">
         <div className="about-image">
           
-            <img src={GroupImage} alt="" />
+            <img src={GroupImage} alt="group of people" />
         </div>
     </div>
     </div>
