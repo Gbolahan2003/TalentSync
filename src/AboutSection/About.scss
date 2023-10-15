@@ -3,3 +3,111 @@
     justify-content: center;
     align-items: center;
 }
+
+.About{
+    margin-top: 5rem;
+    @extend %flexContent;
+    flex-direction: column;
+    .about-container{
+        width: 85vw;
+        position: relative;
+        .arrow{
+            position: absolute;
+            position: absolute;
+    left: 49rem;
+    top: 3rem;
+        }
+        .About-header{
+            width: 40vw;
+            .about-secondary-header{
+                color: var(--blue-700, #175CD3);
+    
+    /* Text lg/Semibold */
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.75rem; /* 155.556% */
+            }
+            .about-header{
+                color: var(--gray-800, #1D2939);
+                margin-bottom: 1rem;
+    /* Display lg/Semibold */
+    font-family: Inter;
+    font-size: 2.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 3.75rem; /* 125% */
+    letter-spacing: -0.06rem;
+            }
+            .about-header-text{
+                color: var(--gray-500, #667085);
+    
+    /* Display xs/Regular */
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem; /* 133.333% */
+            }
+        }
+    }
+}
+
+.about-image-blog{
+display: flex;
+
+    .about-image_text{
+        width: 3rem;
+        height: 3rem;
+        @extend %flexContent;
+
+    }
+}
+
+.about-image{
+    @extend %flexContent;
+    margin: 3rem 0;
+    justify-content: space-between;
+    .about-text-contained{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        .about-image-container-text{
+            width: 22rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            .about-image-icon{
+                height: 3rem;
+                width: 3rem;
+                @extend %flexContent;
+                border-radius: 50%;
+        border: 1px solid var(--gray-200, #EAECF0);
+        background: var(--gray-50, #F9FAFB);
+        
+            }
+            .about-image-header{
+                color: var(--gray-900, #101828);
+        
+        /* Display xs/Semibold */
+        font-family: Inter;
+        font-size: 1.4rem;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 2rem; /* 133.333% */
+            }
+            .about-image-text{
+                color: var(--gray-600, #475467);
+        
+        /* Text lg/Regular */
+        font-family: Inter;
+        font-size: 1.1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.75rem; /* 155.556% */
+            }
+            
+        }
+    }
+}

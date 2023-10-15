@@ -1,0 +1,98 @@
+%flexContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.trail-main-container{
+    margin-top: 8rem;
+    display: flex;
+   justify-content: right;
+    .trail-container{
+        width: 92.5vw;
+        display: flex;
+        justify-content: space-between;
+        .trail-components{
+            .trail-header{
+                color: var(--gray-900, #101828);
+
+/* Display lg/Semibold */
+font-family: Inter;
+font-size: 2.7rem;
+font-style: normal;
+font-weight: 700;
+line-height: 3.75rem; /* 125% */
+letter-spacing: -0.06rem;
+}
+.trail-list{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    .list{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        gap: 0.7rem;
+        .list-text{
+            color: var(--gray-600, #475467);
+
+/* Display xs/Regular */
+font-family: Inter;
+font-size: 1.5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 2rem; /* 133.333% */
+        }
+
+    }
+}
+.trail-buttons{
+    margin-top: 3rem;
+    
+    display: flex;
+    gap: 1rem;
+    .btn-5{
+        padding: 1rem 2rem;
+        border-radius: 6.25rem;
+        color: var(--gray-900, #101828);
+
+/* Text md/Semibold */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 150% */
+border: 1px solid var(--gray-400, #98A2B3);
+background: #FFF;
+
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+    .btn-6{
+        padding: 1.1rem 2rem;
+        border-radius: 6.25rem;
+background: var(--blue-700, #175CD3);
+color: var(--base-white, #FFF);
+
+/* Text md/Semibold */
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 150% */
+/* Shadow/xs */
+box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+    }
+}
+        }
+        .trail-image{
+            img{
+                border-top-left-radius: 20px;
+                border-bottom-left-radius:0 ;
+border-left: 8px solid var(--gray-900, #101828);
+            border-top:8px solid var(--gray-900, #101828) ;
+            }
+        }
+    }
+
+}
