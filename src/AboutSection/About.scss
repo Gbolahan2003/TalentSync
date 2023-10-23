@@ -111,3 +111,101 @@ display: flex;
         }
     }
 }
+
+@media(max-width:1250px){
+    .hero-section .hero-section-container {
+        display: flex;
+        flex-direction: row;
+         gap: 0;
+        margin-top: 3rem;
+        align-items: flex-start;
+    }
+    
+
+.sponsorship-container .sponsor-logo-container {
+    width: 85vw;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+.about-image {
+    margin: 3rem 0;
+    flex-direction: column;
+    justify-content: center;
+}
+.About .about-container .arrow {
+    display: none;
+    position: absolute;
+    position: absolute;
+    left: 49rem;
+    top: 3rem;
+}
+.About .about-container {
+    width: 85vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+.shopify-main-conatiner .shopify {
+    width: 85vw;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    text-align: center;
+
+}
+.support-main-container .support-container .support-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.trail-main-container {
+    margin-top: 8rem;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+}
+.trail-main-container .trail-container {
+    width: 92.5vw;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+.footer-main-container .footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.hero-section .hero-section-container {
+    display: flex;
+    flex-direction: row;
+    gap: 0;
+    margin-top: 3rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+}
+@media(max-width:900px){
+    section nav {
+        width: 90vw;
+        visibility: hidden;
+        padding: 1rem;
+        border-radius: 6.25rem;
+        border: 1px solid var(--gray-300, #D0D5DD);
+        background: var(--gray-100, #F2F4F7);
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-section .hero-section-container .hero-section-text {
+        width: 83vw;
+    }
+}
